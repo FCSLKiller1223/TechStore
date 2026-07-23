@@ -1,0 +1,27 @@
+.footer-col,
+.footer_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_titulo{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.footer_contacto{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_contacto li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
