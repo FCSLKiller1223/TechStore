@@ -277,6 +277,20 @@
         width: 90%;
     }
 
+    #carrito_overlay {
+        z-index: 9990;
+    }
+
+    #carrito_panel {
+        z-index: 9995;
+    }
+
+    .modal,
+    #modal-confirmacion,
+    #modal-gracias {
+        z-index: 99999;
+    }
+
 }
 
 
