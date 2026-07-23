@@ -8,7 +8,7 @@ MODAL
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 5000;
+  z-index: 999999;
   padding: 16px;
 }
 
