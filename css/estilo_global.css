@@ -64,6 +64,24 @@ NOTIFICACION DEL CARRO DE COMPRA
   transition: opacity .15s ease, transform .15s ease;
 }
 
+/* ==========================================================
+   CAPAS Y ORDEN DE APILAMIENTO (Z-INDEX GLOBAL)
+========================================================== */
+
+#carrito_overlay {
+    z-index: 9990;
+}
+
+#carrito_panel {
+    z-index: 9995;
+}
+
+.modal,
+#modal-confirmacion,
+#modal-gracias {
+    z-index: 99999;
+}
+
 .cart-badge.visible{
   opacity: 1;
   transform: scale(1);
