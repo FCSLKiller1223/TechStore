@@ -224,7 +224,7 @@
 
     .footer_contacto li {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         gap: 10px;
         margin-bottom: 12px;
