@@ -60,6 +60,42 @@
         gap: 20px;
     }
 
+    /* ==========================
+       CONTACTO
+       ICONOS EN FILA
+    ========================== */
+
+    .contacto_info {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    .info_card {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .info_text {
+        display: none;
+    }
+
+    .info_icon {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+    }
+
+
     /* FOOTER */
 
     .footer_grid {
